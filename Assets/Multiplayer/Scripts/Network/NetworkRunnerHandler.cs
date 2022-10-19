@@ -23,11 +23,11 @@ public class NetworkRunnerHandler : MonoBehaviour
     {
         if (networkRunner == null)
         {
-            if (GUI.Button(new Rect(0, 0, 350, 80), "Host"))
+            if (GUI.Button(new Rect(5, 5, 400, 80), "Host"))
             {
                 StartGame(GameMode.Host);
             }
-            if (GUI.Button(new Rect(0, 80, 350, 80), "Join"))
+            if (GUI.Button(new Rect(5, 85, 400, 80), "Join"))
             {
                 StartGame(GameMode.Client);
             }
